@@ -1,0 +1,22 @@
+{
+  "name": "ai-agent-book-chapter1-nodejs",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "web-search-agent"
+  ],
+  "scripts": {
+    "check": "npm run check --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "demo:web-search": "npm run demo --workspace web-search-agent"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
